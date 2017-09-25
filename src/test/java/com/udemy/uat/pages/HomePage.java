@@ -20,11 +20,17 @@ public class HomePage {
 	@FindBy(id = "id_email")
 
 	public WebElement emailId;
+<<<<<<< HEAD
 
 	// Test
 	// Teeeeeeeesttttt
 
 	@FindBy(id = "id_password")
+=======
+	
+	// making a change in homepage
+	@FindBy(id="id_password")
+>>>>>>> branch 'teamforce' of https://github.com/cgrkhrmn/UdemyUatForTeam.git
 	public WebElement password;
 
 	@FindBy(id = "submit-id-submit")
