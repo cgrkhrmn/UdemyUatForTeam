@@ -11,6 +11,7 @@ public class HomePage {
 		PageFactory.initElements(Driver.getInstance(), this);
 	}
 	// THIS IS FIRST CHaNGE
+	//I created a new branch
 	@FindBy(id="id_email")
 	public WebElement emailId;
 	
