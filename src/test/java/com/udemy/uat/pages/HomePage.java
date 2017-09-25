@@ -14,6 +14,7 @@ public class HomePage {
 	@FindBy(id="id_email")
 	public WebElement emailId;
 	
+	// making a change in homepage
 	@FindBy(id="id_password")
 	public WebElement password;
 	
