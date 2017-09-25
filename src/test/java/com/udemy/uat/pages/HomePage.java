@@ -10,8 +10,7 @@ public class HomePage {
 	public HomePage(){
 		PageFactory.initElements(Driver.getInstance(), this);
 	}
-	// THIS IS FIRST CHaNGE
-	//I created a new branch
+	// Rahib changed the code
 	@FindBy(id="id_email")
 	public WebElement emailId;
 	
